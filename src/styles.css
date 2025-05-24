@@ -1,0 +1,87 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  padding: 2rem;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form > div {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea,
+select {
+  width: 50%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin: 1.5px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  margin-right: 0.5rem;
+  margin-top: 1.5rem;
+  border: none;
+  background-color: #2f80ed;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1366d6;
+}
+
+.step-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.file-preview {
+  font-size: 0.9rem;
+  background: #f1f1f1;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
